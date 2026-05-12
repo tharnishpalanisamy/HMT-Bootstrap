@@ -1,0 +1,16 @@
+.primary-blue-bg{
+    background: #0033AB;
+}
+.top-right-ul{
+    list-style-type: none
+}
+.top-right-ul a{
+    text-decoration: none; 
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 767px) {
+    .hide{
+        display: none;
+    }
+}
