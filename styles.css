@@ -8,9 +8,15 @@
     text-decoration: none; 
     color: whitesmoke;
 }
-
-@media screen and (max-width: 767px) {
-    .hide{
-        display: none;
-    }
+.mobile-logo{
+    width: 140px;
 }
+.custom-img{
+    width: 340px; 
+    height: 320px;
+}
+    @media screen and (max-width: 767px) {
+        .hide{
+            display: none;
+        }
+    }
