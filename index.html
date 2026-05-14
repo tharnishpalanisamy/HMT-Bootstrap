@@ -1,12 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HMT Watch Replica</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -19,176 +27,565 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-</head>
-<body>
+  </head>
+  <body>
     <div class="container-fluid primary-blue-bg header">
-        <div class="row pt-lg-2 pb-2">
-            <div class="top-left col-lg-6 col-md-2 col-12 col-sm-2">
-            <p class="text-light small fw-medium ">Support <span class="d-none d-lg-inline-block ">: 080-28385491/9380369917 /info@hmtwatches.in/</span></p>
+      <div class="row pt-lg-2 pb-2">
+        <div class="top-left col-lg-6 col-md-2 col-12 col-sm-2">
+          <p class="text-light small fw-medium">
+            Support
+            <span class="d-none d-lg-inline-block"
+              >: 080-28385491/9380369917 /info@hmtwatches.in/</span
+            >
+          </p>
         </div>
         <div class="top-right col-lg-6 col-md-10 col-12">
-            <ul class="top-right-ul text-light d-flex flex-wrap justify-content-start justify-content-lg-end align-items-center gap-2 fw-medium small m-0 p-0">
-                <li><select name="language" id="language" class="p-1 px-lg-3">
+          <ul
+            class="top-right-ul text-light d-flex flex-wrap justify-content-start justify-content-lg-end align-items-center gap-2 fw-medium small m-0 p-0"
+          >
+            <li>
+              <select name="language" id="language" class="p-1 px-lg-3">
                 <option value="Select">Select Language</option>
                 <option value="english">English</option>
-                </select>
+              </select>
             </li>
-            <li><a href=""><i class="bi bi-person-fill "></i> Login/Register</a></li>
+            <li>
+              <a href=""><i class="bi bi-person-fill"></i> Login/Register</a>
+            </li>
             <li><i class="bi bi-heart-fill"></i> Wishlist</li>
             <li><i class="bi bi-cart-fill"></i> Cart(0)</li>
-            </ul>
-
+          </ul>
         </div>
-        </div>
+      </div>
     </div>
 
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <div class="d-flex d-lg-none w-100 align-items-center">
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary position-sticky top-0 z-3"
+    >
+      <div class="container-fluid">
+        <div class="d-flex d-lg-none w-100 align-items-center">
+          <div>
+            <i class="bi bi-search fs-5"></i>
+          </div>
 
-    <div>
-        <i class="bi bi-search fs-5"></i>
-    </div>
+          <a class="navbar-brand mx-auto" href="#">
+            <img src="assets/logo2.png" class="img-fluid mobile-logo" />
+          </a>
 
-    <a class="navbar-brand mx-auto" href="#">
-        <img src="assets/logo2.png" class="img-fluid mobile-logo">
-    </a>
-
-    <button class="navbar-toggler border-0 shadow-none bg-light "
+          <button
+            class="navbar-toggler border-0 shadow-none bg-light"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent">
+            data-bs-target="#navbarSupportedContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
 
-        <span class="navbar-toggler-icon"></span>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav w-100 justify-content-around align-items-center text-center mb-2 mb-lg-0"
+          >
+            <li class="nav-item">
+              <a class="nav-link active fw-medium" aria-current="page" href="#"
+                >Watches</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-medium" aria-current="page" href="#"
+                >Tower Clock</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-medium" aria-current="page" href="#"
+                >Gifting</a
+              >
+            </li>
+            <li class="nav-item d-none d-lg-block">
+              <img src="assets/logo2.png" width="180" />
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-medium" aria-current="page" href="#"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-medium" aria-current="page" href="#"
+                >Contact us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-medium" aria-current="page" href="#"
+                ><i class="bi bi-geo-alt-fill"></i> Store Location</a
+              >
+            </li>
+            <li class="nav-item d-none d-lg-block">
+              <a class="nav-link active fw-medium" aria-current="page" href="#"
+                ><i class="bi bi-search"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    </button>
-
-</div>
-
-    
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav w-100 justify-content-around align-items-center text-center mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active fw-medium" aria-current="page" href="#">Watches</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active fw-medium" aria-current="page" href="#">Tower Clock</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active fw-medium" aria-current="page" href="#">Gifting</a>
-        </li>
-        <li class="nav-item d-none d-lg-block">
-          <img src="assets/logo2.png" width="180">
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active fw-medium" aria-current="page" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active fw-medium" aria-current="page" href="#">Contact us</a> 
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active fw-medium" aria-current="page" href="#"><i class="bi bi-geo-alt-fill"></i> Store Location</a>
-        </li><li class="nav-item d-none d-lg-block">
-          <a class="nav-link active fw-medium" aria-current="page" href="#"><i class="bi bi-search"></i></a>
-        </li>
-      </ul>
+    <!-- //carousal 1  -->
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/home1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/home2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/hom3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/home4.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/home5.png" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </div>
-</nav>
 
-<!-- //carousal 1  -->
- <div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets/home1.jpg" class="d-block w-100" alt="...">
+    <!-- below the first carousal  -->
+    <div
+      class="container-fluid mt-3 primary-blue-bg text-light py-lg-3 py-1 d-inline-flex justify-content-center"
+    >
+      <h5 class="fw-medium">
+        Come , Discover HMT Watches. It will change the way you look at TIME .
+      </h5>
     </div>
-    <div class="carousel-item">
-      <img src="assets/home2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/hom3.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/home4.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/home5.png" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
-<!-- below the first carousal  -->
- <div class="container-fluid mt-3 primary-blue-bg text-light py-lg-3 py-1 d-inline-flex justify-content-center">
-    <h5 class="fw-medium">Come , Discover HMT Watches. It will change the way you look at TIME .</h5 >
- </div>
-
- <!-- catogory  -->
+    <!-- catogory  -->
     <div class="container mt-5">
-    <h3 class="fw-bold text-center mb-5">SHOP FOR</h3>
-    <div class="row g-4 justify-content-center">
-        <div class="col-12 col-md-6 col-lg-5 d-flex justify-content-center justify-content-lg-end">
-            <div class="img-wrapper p-3 p-lg-0 position-relative">
-                <img src="assets/men.jpg"
-                 alt=""
-                 class="custom-img rounded-4 img-fluid">
-            <h2 class="overlay-text text-light">MEN</h2></div>
-            
-
+      <h3 class="fw-bold text-center mb-5">SHOP FOR</h3>
+      <div class="row g-4 justify-content-center">
+        <div
+          class="col-12 col-md-6 col-lg-5 d-flex justify-content-center justify-content-lg-end"
+        >
+          <div class="img-wrapper p-3 p-lg-0 position-relative">
+            <img
+              src="assets/men.jpg"
+              alt=""
+              class="custom-img rounded-4 img-fluid"
+            />
+            <h2 class="overlay-text text-light">MEN</h2>
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-5 d-flex justify-content-center justify-content-lg-start">
-
-            <div class="img-wrapper p-3 p-lg-0 position-relative">
-                <img src="assets/women.jpg"
-                 alt=""
-                 class="custom-img rounded-4 img-fluid">
-            <h2 class="overlay-text text-light">WOMEN</h2></div>
+        <div
+          class="col-12 col-md-6 col-lg-5 d-flex justify-content-center justify-content-lg-start"
+        >
+          <div class="img-wrapper p-3 p-lg-0 position-relative">
+            <img
+              src="assets/women.jpg"
+              alt=""
+              class="custom-img rounded-4 img-fluid"
+            />
+            <h2 class="overlay-text text-light">WOMEN</h2>
+          </div>
         </div>
-
+      </div>
     </div>
 
-</div>
+    <div class="container py-5">
+      <!-- HEADING -->
+      <h2 class="fw-bold text-center mb-4">Trending Products</h2>
 
-<!-- watch carousel 1 -->
-    <div class="container">
-      <h3 class="fw-bold text-center mt-3">Trending Products</h3>
-      <ul class="watch-list d-flex justify-content-center gap-3 mt-3">
-        <li class="text-secondary fw-bold item-active">Newly listed</li>
+      <!-- FILTERS -->
+      <ul class="watch-list d-flex justify-content-center gap-4 flex-wrap mb-5">
+        <li class="item-active fw-bold">Newly listed</li>
+
         <li class="text-secondary fw-bold">Fast moving</li>
+
         <li class="text-secondary fw-bold">Product with offer</li>
+
         <li class="text-secondary fw-bold">Premium Watches</li>
       </ul>
 
-      <div class="row">
-        <div class="col-10">
-          <div class="carousel mx-auto justify-content-center">
-        <div class="watch-card">
-          <img src="assets/img1.jpg" alt="" class="">
+      <!-- CAROUSEL WRAPPER -->
+      <div class="carousel-wrapper">
+        <!-- LEFT BUTTON -->
+        <button class="scroll-btn left-btn">
+          <i class="fa fa-angle-left"></i>
+        </button>
+
+        <!-- CAROUSEL -->
+        <div class="custom-carousel" id="watchCarousel">
+          <!-- PRODUCT 1 -->
+          <div class="product-card">
+            <div class="watch-card">
+              <img src="assets/img1.jpg" alt="" />
+            </div>
+
+            <div class="product-info">
+              <h5>HMT INOX IXGL</h5>
+              <p>Rs. 2436</p>
+            </div>
+
+            <div class="actions">
+              <button><i class="bx bxs-cart"></i></button>
+              <button><i class="fa fa-eye"></i></button>
+              <button><i class="fa fa-random"></i></button>
+            </div>
+          </div>
+
+          <!-- PRODUCTS 2-10 -->
+          <div class="product-card">
+            <div class="watch-card">
+              <img src="assets/img2.jpg" />
+            </div>
+            <div class="product-info">
+              <h5>HMT Galaxy</h5>
+              <p>Rs. 2999</p>
+            </div>
+            <div class="actions">
+              <button><i class="bx bxs-cart"></i></button>
+              <button><i class="fa fa-eye"></i></button>
+              <button><i class="fa fa-random"></i></button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="watch-card">
+              <img src="assets/img3.jpg" />
+            </div>
+            <div class="product-info">
+              <h5>HMT Silver</h5>
+              <p>Rs. 1999</p>
+            </div>
+            <div class="actions">
+              <button><i class="bx bxs-cart"></i></button>
+              <button><i class="fa fa-eye"></i></button>
+              <button><i class="fa fa-random"></i></button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="watch-card">
+              <img src="assets/img4.jpg" />
+            </div>
+            <div class="product-info">
+              <h5>HMT Prime</h5>
+              <p>Rs. 2750</p>
+            </div>
+            <div class="actions">
+              <button><i class="bx bxs-cart"></i></button>
+              <button><i class="fa fa-eye"></i></button>
+              <button><i class="fa fa-random"></i></button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="watch-card">
+              <img src="assets/img5.jpg" />
+            </div>
+            <div class="product-info">
+              <h5>HMT Quartz</h5>
+              <p>Rs. 3120</p>
+            </div>
+            <div class="actions">
+              <button><i class="bx bxs-cart"></i></button>
+              <button><i class="fa fa-eye"></i></button>
+              <button><i class="fa fa-random"></i></button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="watch-card">
+              <img src="assets/img6.jpg" />
+            </div>
+            <div class="product-info">
+              <h5>HMT Heritage</h5>
+              <p>Rs. 2280</p>
+            </div>
+            <div class="actions">
+              <button><i class="bx bxs-cart"></i></button>
+              <button><i class="fa fa-eye"></i></button>
+              <button><i class="fa fa-random"></i></button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="watch-card">
+              <img src="assets/img7.jpg" />
+            </div>
+            <div class="product-info">
+              <h5>HMT Vintage</h5>
+              <p>Rs. 2590</p>
+            </div>
+            <div class="actions">
+              <button><i class="bx bxs-cart"></i></button>
+              <button><i class="fa fa-eye"></i></button>
+              <button><i class="fa fa-random"></i></button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="watch-card">
+              <img src="assets/img8.jpg" />
+            </div>
+            <div class="product-info">
+              <h5>HMT Classic</h5>
+              <p>Rs. 3420</p>
+            </div>
+            <div class="actions">
+              <button><i class="bx bxs-cart"></i></button>
+              <button><i class="fa fa-eye"></i></button>
+              <button><i class="fa fa-random"></i></button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="watch-card">
+              <img src="assets/img9.png" />
+            </div>
+            <div class="product-info">
+              <h5>HMT Elite</h5>
+              <p>Rs. 2890</p>
+            </div>
+            <div class="actions">
+              <button><i class="bx bxs-cart"></i></button>
+              <button><i class="fa fa-eye"></i></button>
+              <button><i class="fa fa-random"></i></button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="watch-card">
+              <img src="assets/img10.jpg" />
+            </div>
+            <div class="product-info">
+              <h5>HMT Royal</h5>
+              <p>Rs. 3750</p>
+            </div>
+            <div class="actions">
+              <button><i class="bx bxs-cart"></i></button>
+              <button><i class="fa fa-eye"></i></button>
+              <button><i class="fa fa-random"></i></button>
+            </div>
+          </div>
         </div>
-        <div class="watch-card">
-          <img src="assets/img1.jpg" alt="" class="">
-        </div>
-        <div class="watch-card">
-          <img src="assets/img1.jpg" alt="" class="">
-        </div>
-        <div class="watch-card">
-          <img src="assets/img1.jpg" alt="" class="">
-        </div>
-      </div>
-        </div>
+
+        <button class="scroll-btn right-btn">
+          <i class="fa fa-angle-right"></i>
+        </button>
       </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!-- explore section -->
+    <section id="explore" class="mt-3">
+      <h4 class="fw-bold text-center">HMT EXPLORE WATCHES</h4>
+
+      <p class="mt-3 text-center">HMT explore watches description.</p>
+
+      <div class="container-fluid">
+        <div
+          class="explore-img-container position-relative d-flex justify-content-center align-items-center mt-4"
+        >
+          <img
+            src="assets/explore.jpg"
+            alt="Explore Watches"
+            class="img-fluid"
+          />
+          <span
+            class="circle position-absolute rounded-circle bg-danger d-flex justify-content-center align-items-center"
+            ><i class="bx bx-play bx-lg text-light"></i
+          ></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- //collection section -->
+    <section id="collections" class="mt-3">
+      <div class="container">
+        <h3 class="fw-bold text-center">HMT COLLECTIONS</h3>
+        <div class="carousel-wrapper second-carousel-wrapper">
+          <button class="scroll-btn second-left-btn">
+            <i class="fa fa-angle-left"></i>
+          </button>
+
+          <div class="custom-carousel second-carousel" id="secondWatchCarousel">
+            <div class="product-card">
+              <div class="watch-card">
+                <img src="assets/img1.jpg" alt="" />
+              </div>
+
+              <div class="product-info">
+                <h5>HMT INOX IXGL</h5>
+                <p>Rs. 2436</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="watch-card">
+                <img src="assets/img2.jpg" />
+              </div>
+
+              <div class="product-info">
+                <h5>HMT Galaxy</h5>
+                <p>Rs. 2999</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="watch-card">
+                <img src="assets/img3.jpg" />
+              </div>
+
+              <div class="product-info">
+                <h5>HMT Silver</h5>
+                <p>Rs. 1999</p>
+              </div>
+            </div>
+
+            <!-- PRODUCT 4 -->
+            <div class="product-card">
+              <div class="watch-card">
+                <img src="assets/img4.jpg" />
+              </div>
+
+              <div class="product-info">
+                <h5>HMT Prime</h5>
+                <p>Rs. 2750</p>
+              </div>
+            </div>
+
+            <!-- PRODUCT 5 -->
+            <div class="product-card">
+              <div class="watch-card">
+                <img src="assets/img5.jpg" />
+              </div>
+
+              <div class="product-info">
+                <h5>HMT Quartz</h5>
+                <p>Rs. 3120</p>
+              </div>
+            </div>
+
+            <!-- PRODUCT 6 -->
+            <div class="product-card">
+              <div class="watch-card">
+                <img src="assets/img6.jpg" />
+              </div>
+
+              <div class="product-info">
+                <h5>HMT Heritage</h5>
+                <p>Rs. 2280</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT BUTTON -->
+          <button class="scroll-btn second-right-btn">
+            <i class="fa fa-angle-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- discover image  -->
+    <section id="discover" class="mt-3">
+      <div class="container-fluid">
+        <div class="discover-img-container position-relative">
+          <img src="assets/discover.jpg" alt="" class="img-fluid" />
+          <div
+            class="discover-content position-absolute top-50 start-0 translate-middle-y ps-3 ps-lg-5"
+          >
+            <p class="blue fw-bold d-none d-lg-block">
+              ACCURATE TIME KEEPING AND TROUBLE FREE PERFORMANCE
+            </p>
+
+            <h4 class="blue fw-bold">HMT WATCHES</h4>
+
+            <button
+              class="btn btn-primary rounded text-light px-3 px-md-5 py-2"
+            >
+              Discover Your Style
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- text content below discover section -->
+    <div class="container">
+      <p class="text-secondary fw-medium mt-lg-5 p-2 mb-5 text-justify para">
+        We have immense pleasure in welcoming you to the official website of HMT
+        Watches!. HMT,a Public Sector Undertaking by Government of India, is a
+        pioneer in Watch manufacturing in India since 1961. HMT uses High
+        Quality, Precision Metallic components for Accurate time keeping and
+        trouble free performance - that lasts a life time. Mechanical Hand
+        wound, Automatic, Quarts, the Braille, the Skeleton Watch, Pocket Watch-
+        each a true masterpiece in its class. HMT Watches come in a wide range
+        of Attractive designs and Affordable Price. Watches that are an
+        exquisite blend of form and function, of style and substance.
+      </p>
+      <div
+        class="btn-container d-flex flex-column flex-lg-row gap-3 justify-content-around mb-5"
+      >
+        <button class="btn btn-dark px-0 py-2 rounded-4 px-lg-5 py-lg-2">
+          History of HMT Watches
+        </button>
+        <button
+          class="btn btn-gradient text-light px-0 py-2 rounded-4 px-lg-5 py-lg-3"
+        >
+          HMT Premium Watches
+        </button>
+      </div>
+    </div>
+    <!-- skeleton image -->
+    <div class="container-fluid px-0">
+      <div class="position-relative">
+        <img src="assets/final.jpg" class="img-fluid w-100" alt="" />
+
+        <!-- CONTENT -->
+        
+        <div
+          class="position-absolute top-50 end-0 translate-middle-y text-center pe-2 pe-md-5"
+        >
+          <p class="fw-bold blue small tracking d-none d-lg-block">
+             MECHANICAL HAND WOUND, AUTOMATIC, QUARTS, THE BRAILLE, THE SKELETON
+             WATCH, POCKET WATCH-
+            EACH A TRUE MASTERPIECE IN ITS CLASS.
+          </p>
+
+          <h2 class="fw-bold blue skeleton inline-block px-3 py-1">
+            HMT SKELETON
+          </h2>
+
+          <div class="mt-4">
+            <button class="btn btn-primary text-light px-1 py-1 px-lg-5 py-lg-2 rounded fw-bold">
+              Find your Type
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
