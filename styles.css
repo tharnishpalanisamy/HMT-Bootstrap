@@ -46,8 +46,8 @@ ul.watch-list li:hover{
     transition: 0.4s;
 }
 .watch-card{
-    flex: 0 0 20em ; 
-    height: 12em ; 
+    flex: 0 0 15em ; 
+    height: 15em ; 
     padding: 1em; 
     border: 8px solid rgb(245, 244, 244) ;
 }
