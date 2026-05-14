@@ -554,33 +554,255 @@
       </div>
     </div>
     <!-- skeleton image -->
-    <div class="container-fluid px-0">
-      <div class="position-relative">
-        <img src="assets/final.jpg" class="img-fluid w-100" alt="" />
+    <div class="container-fluid px-0 hero-section position-relative">
+      <!-- Background Image -->
+      <img src="assets/final.jpg" alt="" class="img-fluid w-100 hero-bg" />
 
-        <!-- CONTENT -->
-        
-        <div
-          class="position-absolute top-50 end-0 translate-middle-y text-center pe-2 pe-md-5"
-        >
-          <p class="fw-bold blue small tracking d-none d-lg-block">
-             MECHANICAL HAND WOUND, AUTOMATIC, QUARTS, THE BRAILLE, THE SKELETON
-             WATCH, POCKET WATCH-
-            EACH A TRUE MASTERPIECE IN ITS CLASS.
-          </p>
+      <!-- RIGHT CONTENT -->
+      <div
+        class="hero-content position-absolute top-50 end-0 translate-middle-y text-center text-lg-end pe-3 pe-lg-5"
+      >
+        <p class="hero-subtitle fw-bold mb-3 d-none d-md-block blue">
+          EACH A TRUE MASTERPIECE IN ITS CLASS.
+        </p>
 
-          <h2 class="fw-bold blue skeleton inline-block px-3 py-1">
-            HMT SKELETON
-          </h2>
+        <h3 class="hero-title fw-bold mb-4 blue">HMT SKELETON</h3>
 
+        <button class="btn hero-btn fw-bold btn-primary text-light">Find your Type</button>
+      </div>
+    </div>
+
+    <footer class="primary-blue-bg text-white py-5 p-1">
+      <div class="container">
+        <!-- ======================= -->
+        <!-- DESKTOP FOOTER -->
+        <!-- ======================= -->
+
+        <div class="row d-none d-md-flex gy-4">
+          <!-- COLUMN 1 -->
+          <div class="col-md-6 col-lg-2">
+            <h5 class="fw-bold mb-4">Our Products</h5>
+
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">Watches</a></li>
+              <li><a href="#">Tower Clocks</a></li>
+            </ul>
+          </div>
+
+          <!-- COLUMN 2 -->
+          <div class="col-md-6 col-lg-2">
+            <h5 class="fw-bold mb-4">CUSTOMER SERVICE</h5>
+
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">Payment Options</a></li>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">Find a Store</a></li>
+              <li><a href="#">Gifting</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+
+          <!-- COLUMN 3 -->
+          <div class="col-md-6 col-lg-2">
+            <h5 class="fw-bold mb-4">Policies</h5>
+
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">Return & Exchange</a></li>
+              <li><a href="#">Cancellation</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Warranty Policies</a></li>
+              <li><a href="#">Terms & Condition</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <!-- COLUMN 4 -->
+          <div class="col-md-6 col-lg-2">
+            <h5 class="fw-bold mb-4">About Us</h5>
+
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">Corporate</a></li>
+              <li><a href="#">Vision & Mission</a></li>
+              <li><a href="#">Right To Information</a></li>
+              <li><a href="#">Vigilance Corner</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+
+          <!-- COLUMN 5 -->
+          <div class="col-lg-4">
+            <h4 class="fw-bold mb-4">HMT LIMITED</h4>
+
+            <p>Auxiliary Business Division</p>
+
+            <p>Jalahalli, Bengaluru -560013</p>
+
+            <p>GSTIN : 29AAACH7073D2ZL</p>
+
+            <h4 class="fw-bold mt-4 mb-3">Follow Us On</h4>
+
+            <div class="d-flex gap-4 social-icons">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================= -->
+        <!-- MOBILE ACCORDION -->
+        <!-- ======================= -->
+
+        <div class="accordion d-md-none footer-accordion" id="footerAccordion">
+          <!-- ITEM 1 -->
+          <div class="accordion-item bg-transparent border-0">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-transparent text-white shadow-none fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#footerOne"
+              >
+                Our Products
+              </button>
+            </h2>
+
+            <div
+              id="footerOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#footerAccordion"
+            >
+              <div class="accordion-body">
+                <ul class="list-unstyled footer-links">
+                  <li><a href="#">Watches</a></li>
+                  <li><a href="#">Tower Clocks</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- ITEM 2 -->
+          <div class="accordion-item bg-transparent border-0">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-transparent text-white shadow-none fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#footerTwo"
+              >
+                CUSTOMER SERVICE
+              </button>
+            </h2>
+
+            <div
+              id="footerTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#footerAccordion"
+            >
+              <div class="accordion-body">
+                <ul class="list-unstyled footer-links">
+                  <li><a href="#">Payment Options</a></li>
+                  <li><a href="#">Track Order</a></li>
+                  <li><a href="#">Find a Store</a></li>
+                  <li><a href="#">Gifting</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- ITEM 3 -->
+          <div class="accordion-item bg-transparent border-0">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-transparent text-white shadow-none fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#footerThree"
+              >
+                Policies
+              </button>
+            </h2>
+
+            <div
+              id="footerThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#footerAccordion"
+            >
+              <div class="accordion-body">
+                <ul class="list-unstyled footer-links">
+                  <li><a href="#">Return & Exchange</a></li>
+                  <li><a href="#">Cancellation</a></li>
+                  <li><a href="#">Shipping</a></li>
+                  <li><a href="#">Warranty Policies</a></li>
+                  <li><a href="#">Terms & Condition</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- ITEM 4 -->
+          <div class="accordion-item bg-transparent border-0">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-transparent text-white shadow-none fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#footerFour"
+              >
+                About Us
+              </button>
+            </h2>
+
+            <div
+              id="footerFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#footerAccordion"
+            >
+              <div class="accordion-body">
+                <ul class="list-unstyled footer-links">
+                  <li><a href="#">Corporate</a></li>
+                  <li><a href="#">Vision & Mission</a></li>
+                  <li><a href="#">Right To Information</a></li>
+                  <li><a href="#">Vigilance Corner</a></li>
+                  <li><a href="#">Careers</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- COMPANY INFO -->
           <div class="mt-4">
-            <button class="btn btn-primary text-light px-1 py-1 px-lg-5 py-lg-2 rounded fw-bold">
-              Find your Type
-            </button>
+            <h4 class="fw-bold">HMT LIMITED</h4>
+
+            <p class="mt-3">Auxiliary Business Division</p>
+
+            <p>Jalahalli, Bengaluru -560013</p>
+
+            <p>GSTIN : 29AAACH7073D2ZL</p>
+
+            <h4 class="fw-bold mt-4">Follow Us On</h4>
+
+            <div class="d-flex gap-4 mt-3 social-icons">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
